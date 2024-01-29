@@ -1,0 +1,19 @@
+1>removing "_" in string and placing next letter to capital.
+a="h_ell_o"
+b=""
+for(i=0;i<a.length;i++){
+    if(a[i]!="_"){
+        b=b+a[i]
+    }
+    else{
+        n=a[i+1].toUpperCase()
+        b=b+n
+        i=i+1
+    }
+}
+console.log(b)
+---------------------------------------------------------------------------------------------------------
+2.print empty array with out assign empty array to variable?
+const c=new Array()
+console.log(c)
+-------------------------------------------------------------------------------------------------------
