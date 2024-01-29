@@ -1,0 +1,8 @@
+1)Greatest of two numbers using terenary  operator?
+A.a=prompt("enter a number:")
+b=prompt("enter a number :")
+a>b ? console.log("a is greater"):console.log("b is greater")
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2)Check a  wheather number is even or odd  using terenary operator?
+A.a%2==0 ? v="a is even":v="a is odd";
+  console.log(v)

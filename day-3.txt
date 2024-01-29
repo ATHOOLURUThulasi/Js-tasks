@@ -1,0 +1,74 @@
+1.Peform calculation using airthematic operator on two values.
+A.var a=2;
+  var b=10;
+  var c=prompt("enter a operator:")
+  switch(c){
+    case "+":
+        console.log("The addition of two numbers=",a+b)
+        break;
+    case "-":
+        console.log("The substraction of two numbers=",a-b)
+        break;
+    case "*":
+        console.log("The multiplication  of two numbers=",a*b)
+        break;
+    case "/":
+        console.log("The addition of two numbers=",a/b)
+        break;
+    case "**":
+        console.log("The addition of two numbers=",a**b)
+        break;
+    case "%":
+        console.log("The addition of two numbers=",a%b)
+        break;
+    default:
+      console.log("please enter only airthemic operator only.")
+      break
+    
+}
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+2.Get a month by using switch case?
+
+A.var a=Number(prompt("enter a number :"))
+switch(a){
+    case 1:
+        console.log("January")
+        break;
+     case 2:
+        console.log("febuary")
+        break;
+    case 3:
+        console.log("march")
+        break;
+    case 4:
+        console.log("April")
+        break;
+    case 5:
+        console.log("may")
+        break;
+    case 6:
+        console.log("june")
+        break;
+    case 7:
+        console.log("july")
+        break;
+    case 8:
+        console.log("August")
+        break;
+    
+    case 9:
+        console.log("september")
+        break;
+    case 11:
+        console.log("october")
+        break;
+    
+   case 12:
+        console.log("November")
+        break;
+    default:
+        console.log("Enter numbers between 1 to 12")
+        break;
+    
+}    
+   

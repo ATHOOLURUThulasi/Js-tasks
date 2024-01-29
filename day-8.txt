@@ -1,0 +1,46 @@
+1>print vowels in a string?
+A.>a="hello world"
+for(i=0;i<a.length;i++){
+    if(a[i]=="a" || a[i]=="e" || a[i]=="i" || a[i]=="o" || a[i]=="u"){
+        console.log(a[i])
+    }
+}
+----------------------------------------------------------------------------------
+2>count of each charcter in a string?
+A.>a="hello"
+for(i=0;i<a.length;i++){
+    b=0
+    for(j=0;j<a.length;j++){
+        if(a[i]==a[j]){
+            b=b+1
+        }
+    }
+    console.log(a[i],b)
+}
+------------------------------------------------------------------------------------
+3>count of particular charcter in a given string?
+A.>a=prompt("enter a charcter :")
+b="hello world"
+c=0
+for(i=0;i<b.length;i++){
+    if(b[i]==a){
+        c=c+1
+    }
+}
+console.log("The count of particular charcter in a given string =",c)
+----------------------------------------------------------------------------------------
+4.>print all capital letters in front after that all small letters?
+A.>
+a="HelloWOrld"
+b=""
+c=""
+for(i=0;i<a.length;i++){
+    if(a[i]==a[i].toUpperCase()){
+        b=b+a[i];
+    }
+    else{
+        c=c+a[i]
+    }
+    
+}
+console.log(b+c)
