@@ -1,0 +1,42 @@
+1>write a programe with out using trim method?
+A.a=" hello world  "
+console.log(a.length)
+b=""
+for(i=0;i<a.length;i++){
+    if(a[i]==" "){
+        if(a[i+1]!=" " && a[i-1]!=" "){
+            b=b+a[i]
+        }
+    }
+    else if(a[i]!=""){
+        b=b+a[i]
+    }
+}
+console.log(b)
+---------------------------------------------------------------------------
+2>write a programe with out using slice method?
+A.a="hello world"
+b=+prompt("enter a start index number :")
+c=+prompt("enter a end  number :")
+d=""
+for(i=b;i<c;i++){
+    d=d+a[i]
+}
+console.log(d)
+-----------------------------------------------------------------------
+3>write a programme with out using split method?
+a="hello world"
+b=[]
+d=""
+c=prompt("enter a charcter :")
+for(i=0;i<a.length;i++){
+    if(a[i]!=c){
+     d=d+a[i]
+    }
+    else{
+        b.push(d)
+        d=""
+    }
+}
+b.push(d)
+console.log(b)
